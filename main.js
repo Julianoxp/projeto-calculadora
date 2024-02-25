@@ -113,10 +113,7 @@ function addvalor(valor)
           }
           else{
             if(document.querySelector('.calc').textContent == ""){
-              operador = valor
-              valor1 = "0";
-              document.querySelector('.calc').textContent += valor1 +" " + valor;
-              document.querySelector('.calc').textContent +=" ";
+              resetAll()
             }
             else{
               operador = valor
@@ -127,7 +124,7 @@ function addvalor(valor)
           }
           break;
           case "/":
-            if(operador != '')
+          if(operador != '')
           {
             
             if(operador != valor || valor2 !='')
@@ -144,10 +141,8 @@ function addvalor(valor)
           }
           else{
             if(document.querySelector('.calc').textContent == ""){
-              operador = valor
-              valor1 = "0";
-              document.querySelector('.calc').textContent += valor1 +" " + valor;
-              document.querySelector('.calc').textContent +=" ";
+         
+              resetAll()
             }
             else{
               operador = valor
