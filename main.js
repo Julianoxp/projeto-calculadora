@@ -82,19 +82,13 @@ function addvalor(valor)
             
             }
             else{
-              if(document.querySelector('.calc').textContent == ""){
-                operador = valor
-                valor1 = "0";
-                document.querySelector('.calc').textContent += valor1 +" " + valor;
-                document.querySelector('.calc').textContent +=" ";
-              }
-              else{
+            
                 operador = valor
                 valor1 = document.querySelector('.calc').textContent;
                 document.querySelector('.calc').textContent +=" " + valor;
                 document.querySelector('.calc').textContent +=" ";
-              }
-          }
+            }
+          
           case"*":
           if(operador != '')
           {
