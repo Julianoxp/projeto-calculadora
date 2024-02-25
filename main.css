@@ -89,3 +89,16 @@ body {
         margin: 90px auto;
     }
 }
+.msg{
+    position: absolute;
+    font-size: 9pt;
+    text-decoration: underline;
+}
+.obs{
+    top: 11px;
+    left: 4px;   
+}
+.version{
+    bottom: 9px;
+    left: 4px;
+}
