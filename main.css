@@ -1,9 +1,10 @@
 @media (max-width:900px) {
     body{
-        background-image: none !important;
+        background-position:  top 27% center !important;
     }
 }
 *{
+    overflow: hidden;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +23,7 @@ body {
 .img-title{
     width: 520px;
     height: 220px;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: -80px;
     background-image: url('titulo.png');
     background-repeat: no-repeat;
@@ -80,12 +81,11 @@ body {
 }
 @keyframes anim {
     0%{
-        margin: 90px auto;
-    }
-    50%{
-        margin: 80px auto;
+        opacity: 0;
+        margin: 50px auto;
     }
     100%{
+        opacity: 1;
         margin: 90px auto;
     }
 }
